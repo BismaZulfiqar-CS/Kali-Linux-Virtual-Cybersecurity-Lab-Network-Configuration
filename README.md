@@ -20,10 +20,14 @@ The following technologies and settings were used to build the laboratory:
 * DHCP: Enabled
 
 3. Implementation Process
+   
 Step 1 – Creating the Virtual Network
 A custom NAT Network named NatNetwork was configured through Oracle VirtualBox.
 The IPv4 network range was set to 10.0.0.0/24, and the DHCP service was enabled to support automatic IP address allocation.
 This network provides a private environment for virtual machines while allowing controlled access to external networks.
+
+<img width="1365" height="729" alt="image" src="https://github.com/user-attachments/assets/64db733a-9a05-44e1-a985-0e6f9821c469" />
+
 
 Step 2 – Setting Up Kali Linux
 Kali Linux was installed and launched as a virtual machine in Oracle VirtualBox.
@@ -40,14 +44,23 @@ The IPv4 configuration included:
 
 These settings associate the additional IP address with the configured virtual network.
 
+**<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/462dc304-027b-42b4-9f5c-5a746acd15b5" />
+**
+
 Step 4 – Saving the Virtual Machine State
 A snapshot was created in Oracle VirtualBox to preserve the virtual machine’s state.
 This provides a recovery point that can be useful when experimenting with future network configurations or cybersecurity practicals.
+
+<img width="760" height="587" alt="image" src="https://github.com/user-attachments/assets/da387c46-9c4f-4a9e-a3ab-83c756c3a8b0" />
+
 
 4. Network Connectivity Testing
 After configuring the network, connectivity was checked by launching Firefox inside Kali Linux.
 The Google homepage (google.com) loaded successfully.
 This provided visual confirmation that the virtual machine had working internet access and could resolve and access a website.
+<img width="1366" height="732" alt="image" src="https://github.com/user-attachments/assets/90f26dc5-6ede-4786-8b80-82870035df70" />
+
+
 
 5. Project Results
 The following tasks were completed during the laboratory setup:
