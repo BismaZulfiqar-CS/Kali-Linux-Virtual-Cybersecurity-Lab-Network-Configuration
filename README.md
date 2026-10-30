@@ -20,6 +20,7 @@ The following technologies and settings were used to build the laboratory:
 * DHCP: Enabled
 
 3. Implementation Process
+   
 Step 1 – Creating the Virtual Network
 A custom NAT Network named NatNetwork was configured through Oracle VirtualBox.
 The IPv4 network range was set to 10.0.0.0/24, and the DHCP service was enabled to support automatic IP address allocation.
